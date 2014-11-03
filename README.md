@@ -1,23 +1,21 @@
-##block_stucture_format
+block_stucture_format
+=====================
+To convert a csv-like format to the format for libFM of block structure.
 
-
-#requirements
-
+requirements
+---------------------
 - nltk==2.0.4
 
-
-#To convert a csv-like format to the format for libFM of block structure.
-
-#origin text format:
-
+origin text format:
+---------------------
 - item1:user1:score1
 - item2:user2:score2
 - item3:user3:score3
 - .
 - .
 
-#after executing, it creates a new directory named 'block_data', it contains:
-
+after executing, it creates a new directory named 'block_data', it contains:
+---------------------
 - ans.data
 - mapping
 - mapping_i
