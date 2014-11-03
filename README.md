@@ -1,5 +1,9 @@
 block_stucture_format
 =====================
+python bsFormat.py original_data
+or
+python bsFormat.py original_data -tfidf
+
 To convert a csv-like format to the format for libFM of block structure.
 
 requirements
