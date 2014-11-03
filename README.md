@@ -1,8 +1,8 @@
 block_stucture_format
 =====================
-python bsFormat.py original_data
-or
-python bsFormat.py original_data -tfidf
+python bsFormat.py original_data<br>
+or<br>
+python bsFormat.py original_data -tfidf<br>
 
 To convert a csv-like format to the format for libFM of block structure.
 
@@ -12,11 +12,11 @@ requirements
 
 origin text format:
 ---------------------
-- item1:user1:score1
-- item2:user2:score2
-- item3:user3:score3
-- .
-- .
+item1:user1:score1<br>
+item2:user2:score2<br>
+item3:user3:score3<br>
+.<br>
+.<br>
 
 after executing, it creates a new directory named 'block_data', it contains:
 ---------------------
